@@ -1,40 +1,73 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: #2d2d2d;
-    color: #f0f0f0;
+body {
+  background: #2d2d2d;
+  color: #f0f0f0;
 }
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-.navigation{
-    background: #373f96;
-    width: 100%;
-    height: 6vh;
-
+.navigation {
+  background: #373f96;
+  width: 100%;
+  height: 6vh;
 }
-.landing{
-    background: #632525;
-    width: 100%;
-    height: 94vh;
+.hide{
+    /* display: none; */
 }
-.about{
-    background: #28a064;
+.hamber{
 }
-.things-we-can-do{
-    background: #42b6be;
-}q
-.get-in-touch{
-    background: #a3067c;
+.hamber ul  li{
+    text-transform: uppercase;
+    color: #000000;
 }
-.join-us{
-    background: #00bb09;
+.nav-line{
+    width: 80%;
+    align-self: center;
+    border: #9ba2ffdc solid 0.01rem;
 }
-.bottom-bar{
-    background: 
-    #b81128;
+.landing {
+  background: #632525;
+  width: 100%;
+  height: 94vh;
+  padding: 1rem;
+}
+.landing-welcome{
+    color: #929292e0;
+    font-size: 2.5rem;
+}
+.landing-phrase{
+    color: #ffffffce;
+    padding: 0.5rem;
+}
+.know-more-btn{
+    padding: 0.4rem;
+    background: #ffffff00;
+    border: solid 0.05rem #050202;
+    border-radius: 0.7rem;
+}
+.about {
+  background: #28a064;
+  padding: 1rem;
+  height: 60vh;
+}
+.about-hd{
+    text-transform: uppercase;
+}
+.things-we-can-do {
+  background: #42b6be;
+}
+.get-in-touch {
+  background: #a3067c;
+}
+.join-us {
+  background: #00bb09;
+}
+.bottom-bar {
+  background: #b81128;
 }

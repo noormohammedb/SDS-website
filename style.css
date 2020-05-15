@@ -18,7 +18,16 @@ body {
 .navigation {
   background: #373f96;
   width: 100%;
-  height: 6vh;
+  height: 8vh;
+}
+.ico-img{
+    margin: 2vh 0 1vh 1vw;
+    width: 2rem;
+    height: 2rem;
+}
+.ico-img > img{
+    width: 7rem;
+    height: 2rem;
 }
 .hide{
     /* display: none; */

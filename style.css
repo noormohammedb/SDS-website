@@ -48,7 +48,9 @@ body {
     color: #ffffffce;
     padding: 0.5rem;
 }
+
 .know-more-btn{
+    color: #ffbcbc;
     padding: 0.4rem;
     background: #ffffff00;
     border: solid 0.05rem #050202;

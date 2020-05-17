@@ -60,12 +60,13 @@ body {
   margin: auto;
 }
 .landing-welcome{
-    color: #929292e0;
-    font-size: 2.5rem;
+  color: #c9c7c7e0;
+  font-size: 2.5rem;
 }
 .landing-phrase{
-    color: #ffffffce;
-    padding: 0.5rem;
+  box-shadow: black;
+  color: #ffffffce;
+  padding: 0.5rem;
 }
 
 .know-more-btn{

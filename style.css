@@ -15,13 +15,13 @@ body {
 }
 .container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   text-align: center;
 }
 .navigation {
   background: #373f96;
-  width: 100%;
-  height: 8vh;
+  /* width: 100%; */
+  /* height: 8vh; */
 }
 .ico-img{
     margin: 2vh 0 1vh 1vw;
@@ -32,14 +32,8 @@ body {
     width: 7rem;
     height: 2rem;
 }
-.hide{
-    /* display: none; */
-}
-.hamber{
-}
-.hamber ul  li{
-    text-transform: uppercase;
-    color: #000000;
+.right{
+  
 }
 .nav-line{
     width: 80%;

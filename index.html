@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +9,69 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
 </head>
+
 <body>
-    
-    <div class="container">
+
+    <div class="container-flux">
         <nav class="navigation">
-            <div class="ico-img">
-                <img src="Assets/logo.png" alt="">
-            </div>
-            <div class="hamber hide">
-                <ul>
-                    <li>About</li>
-                    <li>blog</li>
-                    <li>Event</li>
-                    <li>Contact</li>
-                    <li>join-us</li>
-                </ul>
-            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand ico-img mr-auto" href="#">
+                    <img src="Assets/logo.png" alt="">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link">
+                                about
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                about
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Event
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                join-us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
         </nav>
+
+
+        
         <hr class="nav-line">
         <header class="landing">
             <div class="land-div">
-                <p  class="landing-welcome">Welcome to</p>
-            
+                <p class="landing-welcome">Welcome to</p>
+
                 <h1>Student <br>
                     Developers <br>
                     Society
                 </h1>
                 <p class="landing-phrase">A vibrant community of student developers and professionals.</p>
-                <a href="#about">            <input type="button" value="Know More" class="know-more-btn">
+                <a href="#about"> <input type="button" value="Know More" class="know-more-btn">
                 </a>
             </div>
         </header>
         <div class="about" id="about">
-                <p class="about-hd">about us</p>
-                <!-- <hr class="about-line"> -->
+            <p class="about-hd">about us</p>
+            <!-- <hr class="about-line"> -->
         </div>
         <div class="things-we-can-do">
             <p>things-we-can-do</p>
@@ -62,4 +92,5 @@
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

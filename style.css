@@ -88,14 +88,15 @@ body {
   font-size: 2rem;
   text-decoration: underline #71dff3;
 }
-.things-we-can-do {
-  text-align: center;
-  background: #fff;
-}
+
 .about-para-heading{
   font-size: 1.5rem;
   font-weight: 600;
   color: #ac0988;
+}
+.things-we-can-do {
+  text-align: center;
+  background: #fff;
 }
 .things-heading{
   font-size: 2rem;
@@ -107,7 +108,13 @@ body {
   text-align: left;
 }
 .get-in-touch {
-  background: #a3067c;
+  background: #fff;
+}
+.get-touch-heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline #d424f7;
+  color: #ac0988;
 }
 .join-us {
   background: #00bb09;

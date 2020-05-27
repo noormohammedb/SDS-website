@@ -83,16 +83,28 @@ body {
 .about-hd{
   text-transform: uppercase;
   padding: 1rem;
+  font-weight: 400;
   color: #000000;
+  font-size: 2rem;
   text-decoration: underline #71dff3;
+}
+.things-we-can-do {
+  text-align: center;
+  background: #fff;
 }
 .about-para-heading{
   font-size: 1.5rem;
   font-weight: 600;
   color: #ac0988;
 }
-.things-we-can-do {
-  background: #42b6be;
+.things-heading{
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline #d424f7;
+}
+.things-main-para{
+  text-align: left;
 }
 .get-in-touch {
   background: #a3067c;

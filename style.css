@@ -109,12 +109,13 @@ body {
 }
 .get-in-touch {
   background: #fff;
+  text-align: center;
+
 }
 .get-touch-heading{
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-decoration: underline #d424f7;
-  color: #ac0988;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: underline #5771e6;
 }
 .join-us {
   background: #00bb09;

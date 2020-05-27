@@ -32,9 +32,18 @@ body {
     width: 7rem;
     height: 2rem;
 }
+.nav-item{
+  font-size: 1.3rem;
+  font-weight: 510;
+  text-transform: capitalize;
+}
 .nav-line{
     width: 80%;
+    display: flex;
     align-self: center;
+    margin: 0 auto 0 auto;
+
+    text-align: center;
     border: #9ba2ffdc solid 0.01rem;
 }
 .landing {

@@ -118,8 +118,33 @@ body {
   text-decoration: underline #5771e6;
 }
 .join-us {
-  background: #00bb09;
+  background: #fff;
+  height: max-content;
 }
-.bottom-bar {
-  background: #b81128;
+.join-us-heading{
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: underline #5771e6;
+}
+.join-us-fonto{
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-us-fonto *{
+  padding: 1rem;
+  transition-duration: 300ms;
+}
+.join-us-fonto > i:hover{
+  font-size: 5rem;
+  color: #b81128;
+}
+.linkedin-link{
+  color: #f0f0f0;
+}
+.linkedin-link:hover{
+  text-decoration: none;
+  color: #bebebe;
 }
